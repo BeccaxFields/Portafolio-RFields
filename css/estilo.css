@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-*{
-  margin:auto;
+* {
+  margin: auto;
 }
+
 body {
   background: rgb(208, 241, 252);
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family: "Montserrat", sans-serif;
 }
-p{
+
+p {
   font-family: "SUSE Mono", sans-serif;
 }
 
@@ -21,31 +24,35 @@ header {
   padding: 20px;
 
 }
-#menu-principal{
+
+#menu-principal {
   background-color: white;
   padding: 10 px 20px;
   text-align: center;
 }
 
-#menu-principal ul{
-list-style-type: none;
-display: flex;
-gap: 20px;
-padding: 0;
-margin: 0;
+#menu-principal ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
-#menu-principal a{
-font-family: "SUSE Mono", sans-serif;
-font-size: 20px;
-font-weight: bolder;
-text-decoration:none;
-color: rgb(151, 228, 151);
+
+#menu-principal a {
+  font-family: "SUSE Mono", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(151, 228, 151);
 }
-#menu-principal a:hover{
-  background-color:rgb(151, 228, 151);
+
+#menu-principal a:hover {
+  background-color: rgb(151, 228, 151);
   color: white;
 }
-#bienvenida{
+
+#bienvenida {
   background-color: rgb(255, 255, 206);
   padding: 30px 0;
 }
@@ -54,63 +61,75 @@ color: rgb(151, 228, 151);
   border: 5px solid #000;
   border-radius: 20px;
   width: 200px;
-  height:auto;
+  height: auto;
 }
-#experiencia{
+
+#experiencia {
   background-color: rgb(168, 168, 224);
 }
-#lista-proyectos{
+
+#lista-proyectos {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
-.proyecto{
-  border:solid pink 2px;
+
+.proyecto {
+  border: solid pink 2px;
   width: 30%;
   border-radius: 10px;
   padding: 10px;
 }
-#habilidades{
+
+#habilidades {
   padding: 20px 30px;
   background-color: white;
 }
-.lista-tecnologías{
-  list-style:none;
+
+.lista-tecnologías {
+  list-style: none;
   display: flex;
   margin-left: 0;
   gap: 20px;
 }
 
-.lista-tecnologías li{
+.lista-tecnologías li {
   background-color: rgb(160, 160, 237);
   color: white;
   padding: 12px 20px;
   border-radius: 25px;
   text-align: center;
 }
-progress{
+
+progress {
   width: 100%;
   height: 25px;
   border-radius: 5px;
-  margin:10px 0;
+  margin: 10px 0;
   background-color: white;
 
 }
-#contacto{
+
+#contacto {
   padding: 30px 20px;
   background-color: white;
 }
-#contacto-label{
+
+#contacto-label {
   font-size: 20px;
+  width: 20px
 }
 
-#contacto-input,textarea{
-font-size: 20px;
-border:solid 1px blue;
-padding: 10px;
-width: 30%;
+#contacto-input,
+textarea,
+select {
+  font-size: 20px;
+  border: solid 1px blue;
+  padding: 10px;
+  width: 30%;
 }
-#contacto button{
+
+#contacto button {
   background-color: blueviolet;
   color: white;
   padding: 20px 10px;
@@ -121,8 +140,12 @@ width: 30%;
 
 }
 
-.campos{
+.campos {
   clear: both;
   padding-top: 20px;
 
+}
+
+#contacto .opciones {
+  width: 5% border: solid 1px blue;
 }

@@ -155,15 +155,45 @@
                 </div>
                 <div class="campos">
                     <label>Correo Electrónico</label>
-                    <input type="email" value="" placeholder="ejemplo@gmail.com" required/>
+                    <input type="email" value="" placeholder="ejemplo@gmail.com" required />
                 </div>
                 <div class="campos">
                     <label> Mensaje</label>
                     <textarea></textarea>
                 </div>
-               <div class="campos">
-                <button type="submit"> Enviar</button>
-               </div>
+                <div class="campos">
+                    <label>Motivo de contacto</label>
+                    <select>
+                        <option> Cotización</option>
+                        <option> Prácticas profesionales</option>
+                        <option>otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label> Fecha eventos</label>
+                    <input type="date" placeholder="aaaa-mm-dd" />
+                </div>
+                <div class="campos">
+                    <label> Modo de contacto</label>
+                    <input type="checkbox" class="opciones"> Whatsapp
+                    <input type="checkbox" class="opciones"> Correo Electrónico
+                </div>
+                <div class="campos">
+                    <label> ¿Eres cliente?</label>
+                    <input type="radio" class="opciones"> sí
+                    <input type="radio" class="opciones"> no
+                </div>
+                <div class="campos">
+                    <label> Número de colaboradores</label>
+                    <input type="number" />
+                </div>
+                <div class="campos">
+                    <label>Enviar requerimientos</label>
+                    <input type="file" name="foto">
+                </div>
+                <div class="campos">
+                    <button type="submit"> Enviar</button>
+                </div>
 
             </form>
         </section>
